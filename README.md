@@ -1,4 +1,4 @@
-Simple example of rails application for API:
+Simple example of rails application for API.
 
 Run in the console:
 
