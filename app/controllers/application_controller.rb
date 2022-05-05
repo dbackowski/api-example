@@ -14,6 +14,7 @@ class ApplicationController < ActionController::API
       in { success?: false, error: ActiveModel::Errors }
         render json: result.error.full_messages, status: :unprocessable_entity
       else
+        head 500
     end
   end
 end
